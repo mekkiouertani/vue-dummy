@@ -1,5 +1,5 @@
 <template>
-    <div id="carouselExampleCaptions" class="carousel slide ">
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel" data-bs-interval="2000">
         <div class="carousel-inner">
             <!-- SLIDE -->
             <div class="carousel-item active" v-for="(slide, index) in  slides " :key="index">
@@ -7,7 +7,7 @@
                     focusable="false">
                 <title>{{ slide.title }}</title>
                 <div class="carousel-caption  text-start ">
-                    <h6 class="my-4 ">{{ slide.category }}</h6>
+                    <h6 class="my-4 d-none d-sm-block ">{{ slide.category }}</h6>
                     <h2 class="fw-bold mb-5 fs-1">{{ slide.title }}</h2>
                     <p class="d-none d-md-block">{{ slide.description }}</p>
                     <button class="my-4 d-none d-md-block btn primary-button rounded-5 ">Read More</button>

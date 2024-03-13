@@ -6,7 +6,7 @@
             </div>
             <div class="left-bottom  col-12  col-lg-6 text-white p-5 position-relative">
                 <div class="position-absolute">
-                    <h6>On focus</h6>
+                    <h6 class="pt-4">On focus</h6>
                     <h3 class="w-75 my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sed.</h3>
                     <p class="w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam labore ea aliquid
                         atque,
