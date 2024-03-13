@@ -10,7 +10,7 @@
                     <h6 class="my-5">{{ slide.category }}</h6>
                     <h2 class="fw-bold mb-5 fs-1">{{ slide.title }}</h2>
                     <p class="d-none d-md-block">{{ slide.description }}</p>
-                    <button class="d-none d-md-block btn primary-button rounded-5 ">Read More</button>
+                    <button class="my-4 d-none d-md-block btn primary-button rounded-5 ">Read More</button>
                 </div>
             </div>
         </div>
