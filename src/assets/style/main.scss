@@ -30,3 +30,17 @@ body{
     font-family: "Manrope", sans-serif;
 }
 
+.primary-button{
+    background-color:   $blue !important;
+    color: white !important;
+    padding: 15px 40px;
+    margin: 30px 0;
+    font-size: 0.9em;
+    transition: 0.2s linear;
+    &:hover{
+        background-color:   $blue !important;
+        transform: scale(1.1);
+    }
+
+}
+

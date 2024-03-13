@@ -10,6 +10,7 @@
                     <h6 class="my-5">{{ slide.category }}</h6>
                     <h2 class="fw-bold mb-5 fs-1">{{ slide.title }}</h2>
                     <p class="d-none d-md-block">{{ slide.description }}</p>
+                    <button class="d-none d-md-block btn primary-button rounded-5 ">Read More</button>
                 </div>
             </div>
         </div>
@@ -109,8 +110,8 @@ export default {
     }
 
     .carousel-caption {
-        top: 40%;
-        transform: translate(0, -40%);
+        top: 10%;
+        transform: translate(0, -10%);
         width: 60% !important;
     }
 
@@ -118,7 +119,17 @@ export default {
 
 @media (min-width: 992px) {
     .carousel-caption {
-        width: 30% !important;
+        top: 40%;
+        transform: translate(0, -40%);
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-caption {
+        top: 50%;
+        transform: translate(0, -50%);
+        width: 40% !important;
     }
 }
 </style>
