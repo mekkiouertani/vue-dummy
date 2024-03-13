@@ -1,44 +1,42 @@
 <template>
-    <header>
-        <nav class="navbar navbar-expand-lg my-txt-dark bg-white py-4">
-            <div class="container position-relative">
-                <!-- LEFT SECTION -->
-                <div class="left-section">
-                    <a href="#"><img class="align-middle" src="../images/Logo.svg" alt="logo-nature-agency"></a>
-                    <a class="navbar-brand fs-3 mx-3 align-middle" href="#"><span class="fw-bold">Nature</span>
-                        Agency</a>
-                </div>
-                <!-- toggle button -->
-                <button class="navbar-toggler text-primary " type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- RIGHT SECTION -->
-                <div class="collapse navbar-collapse fs-6  " id="navbarNav">
-                    <ul class="navbar-nav ms-auto mt-4">
-                        <li class="nav-item mx-3" v-for="item in menu">
-                            <a class="nav-link active" aria-current="page" href="#">{{ item }}</a>
-                        </li>
-                        <li class="mx-3 ">
-                            <!-- search-bar -->
-                            <div class="searchbar">
-                                <input class="search_input" type="text" placeholder="Search...">
-                                <a href="#" class="search_icon"> <i
-                                        class="fa-solid fa-magnifying-glass p-1 rounded my-txt-dark fs-4"></i></a>
-                            </div>
-                        </li>
-                        <li>
-                            <!-- call to action -->
-                            <button class="btn bg-primary rounded-5 py-3 text-white fw-light align-middle">
-                                Contact us
-                            </button>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg my-txt-dark bg-white py-4">
+        <div class="container position-relative">
+            <!-- LEFT SECTION -->
+            <div class="left-section">
+                <a href="#"><img class="align-middle" src="../images/Logo.svg" alt="logo-nature-agency"></a>
+                <a class="navbar-brand fs-3 mx-3 align-middle" href="#"><span class="fw-bold">Nature</span>
+                    Agency</a>
             </div>
-        </nav>
-    </header>
+            <!-- toggle button -->
+            <button class="navbar-toggler text-primary " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- RIGHT SECTION -->
+            <div class="collapse navbar-collapse fs-6  " id="navbarNav">
+                <ul class="navbar-nav ms-auto mt-4">
+                    <li class="nav-item mx-3" v-for="item in menu">
+                        <a class="nav-link active" aria-current="page" href="#">{{ item }}</a>
+                    </li>
+                    <li class="mx-3 ">
+                        <!-- search-bar -->
+                        <div class="searchbar">
+                            <input class="search_input" type="text" placeholder="Search...">
+                            <a href="#" class="search_icon"> <i
+                                    class="fa-solid fa-magnifying-glass p-1 rounded my-txt-dark fs-4"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <!-- call to action -->
+                        <button class="btn bg-primary rounded-5 py-3 text-white fw-light align-middle">
+                            Contact us
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </template>
 
 <script>
