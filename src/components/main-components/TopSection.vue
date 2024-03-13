@@ -36,6 +36,13 @@ img {
     object-fit: cover;
 }
 
+.primary-button {
+    &:hover {
+        background-color: #262626 !important;
+        color: white;
+    }
+}
+
 @media (min-width: 778px) {
 
     .left-top h3,

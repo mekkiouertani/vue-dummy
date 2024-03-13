@@ -94,7 +94,12 @@ export default {
     right: -4%;
 }
 
-
+.primary-button {
+    &:hover {
+        background-color: #fff !important;
+        color: black !important;
+    }
+}
 
 @media (min-width: 768px) {
 

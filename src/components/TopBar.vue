@@ -87,9 +87,14 @@ ul li:last-child {
     button {
         font-size: 0.8em;
         padding: 2rem;
+
+        &:hover {
+            background-color: #262626 !important;
+        }
     }
 
 }
+
 
 //SearchBar Small Nav
 .search_input {
@@ -172,6 +177,8 @@ ul li:last-child {
     }
 
 }
+
+
 
 //FIX Call to Action
 @media (min-width: 992px) and (max-width: 1200px) {
