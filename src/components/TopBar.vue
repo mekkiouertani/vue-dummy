@@ -29,9 +29,11 @@
                     </li>
                     <li>
                         <!-- call to action -->
-                        <button class="btn bg-primary rounded-5 py-3 text-white fw-light align-middle">
-                            Contact us
-                        </button>
+                        <small class="btn bg-primary rounded-5 py-3 text-white fw-light align-middle px-2">
+                            <TypingText />
+
+                            <!-- Contact us -->
+                        </small>
                     </li>
                 </ul>
             </div>
@@ -40,9 +42,12 @@
 </template>
 
 <script>
+import TypingText from "./fx-components/TypingText.vue";
 export default {
     name: "TopBar",
+    components: { TypingText },
     data() {
+
         return {
             menu: [
                 'Who we are',
@@ -53,6 +58,7 @@ export default {
         }
     },
 }
+
 </script>
 
 <style lang="scss" scoped>

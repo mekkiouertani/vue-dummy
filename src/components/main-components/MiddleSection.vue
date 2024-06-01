@@ -8,7 +8,7 @@
                 soluta
                 necessitatibus numquam saepe molestias est, itaque ipsum natus. Earum recusandae mollitia nostrum beatae
                 velit!</p>
-            <div class="row my-4 g-5 justify-content-center">
+            <div class="row my-4 gy-5 justify-content-center">
                 <div class="col-12  col-lg-6 col-xl-4" v-for="card in cards">
                     <div class="my-card ">
                         <div class="box-img">
